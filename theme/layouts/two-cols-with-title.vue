@@ -13,7 +13,6 @@
 <style scoped>
 .outer {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 .left {

@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding-bottom: 8%;
 }
 .subtitle {
   text-align: left;

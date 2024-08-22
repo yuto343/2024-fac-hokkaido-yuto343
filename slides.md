@@ -187,113 +187,71 @@ layout: section-with-subtitle
 📖 記事かいつまみ紹介
 
 ---
-layout: section
+layout: two-cols-with-title
 ---
-
-## Astroとは？
-
----
-layout: iframe-left
-url: https://astro.build/
----
-
-## 特徴
-
-<div class="text-6 pt-5">
-
-  <div v-click>
-  - 
-  </div>
-  <div v-click>
-  - Astroアイランド
-  </div>
-  <div v-click>  
-  - Zero Lock-in
-  </div>
-
-</div>
----
-layout: section
----
-
-# for content-driven websites
-メディアサイトなど、コンテンツが主体となったwebサイトを作るのに適したフレームワークです。
-
-<!-- そのコンテンツ管理の特徴的な機能としてContent Collectionsがあります。 -->
----
-layout: two-cols-header
----
-
-# Content Collections
-ローカルコンテンツのスキーマを定義し、厳密に管理できます。
+# web制作ここからでOK！な入門記事
 
 ::left::
 
-<div class="pr-5" v-click>
-
-collections/config.ts
-```ts
-import { z, defineCollection } from "astro:content"
-
-const writing = defineCollection({
-  schema: z.object({
-    title: z.string(),
-    draft: z.boolean(),
-    at: z.string().optional(),
-    date: z.date(),
-    link: z.string().optional(),
-  }),
-});
-
-export const collections = {
-  writing
-};
-
-```
-
-</div>
+<img src="./assets/astro.png" alt="Astro" class="p-2" />
 
 ::right::
+<div class="pl-5">
 
-<div v-click>
+## 内容
 
-content/2024-supabase-1.md
-```md
----
-title: Supabaseで作る記録アプリ | 第1回 プロジェクトの作成と簡単なテーブルの作成
-draft: false
-at: CodeGrid
-date: 2024-08-08
-link: https://www.codegrid.net/articles/2024-supabase-1/
----
-```
+  <div v-click>
+
+  - Astroの特徴
+  - 他のフレームワークなどとの比較 
+  - コンポーネントの実装
+  - 非同期処理の書き方
+
+  から
+  </div>
+  <div v-click>
+
+  - 外部データからページを生成
+  - Content Collectionsの使い方
+
+  まで解説！
+  </div>
 </div>
+
 ---
 layout: section
 ---
 
-# Astro Islands
+
+<h1 class="flex flex-items-center flex-justify-center gap-10">
+<div>Astroの特徴</div>
+<div v-click><IconArrowLeft size="40" class="rotate-180"/></div>
+<div v-click>アイランドアーキテチャ</div>
+</h1>
+
+---
+layout: two-cols-with-title
+---
+
+# アイランドアーキテクチャ
 
 JavaScriptを読み込む、読み込まないをコンポーネント単位で制御できます。
 
----
-layout: two-cols
----
+::left::
 
-Counter.svelte
-```svelte
+<div>
+<div class="flex flex-items-center gap-1">
+<LogoSvelte size="18" />Counter.svelte
+</div>
+```svelte {all|3|4-6|8|15-17|0}
 <script>
   import { onMount } from "svelte";
-
   let count = 0;
-
   function countUp() {
     count += 1;
   }
-
   onMount(() => {
     const interval = setInterval(countUp, 1000);
-
     return () => {
       clearInterval(interval);
     };
@@ -305,13 +263,15 @@ Counter.svelte
 </div>
 ```
 
+</div>
+
 ::right::
 
-<div v-click>
-
-pages/index.astro
-
-```astro
+<div>
+<div class="flex flex-items-center gap-1">
+<LogoAstro size="18" />pages/index.astro
+</div>
+```astro {0|2,12|11,13}
 ---
 import Counter from "../components/counter.svelte";
 ---
@@ -324,62 +284,50 @@ import Counter from "../components/counter.svelte";
 		<h1>スクロールしてね</h1>
 		<div style="height: 200vh"></div>
 		<Counter client:visible />
+		<div style="height: 200vh"></div>
 	</body>
 </html>
 
 ```
 </div>
+
 ---
 
-<SlidevVideo autoplay controls>
+
+<SlidevVideo autoplay controls muted>
   <source src="./assets/client-visible-demo.mp4" type="video/mp4">
 </SlidevVideo>
----
-layout: section
----
 
-# Zero Lock-in
-AstroはメジャーなUIフレームワークをサポートしています。
 
 ---
-
-## Zero Lock-in
-
-このように、UIフレームワークのコンポーネントが混在したコードが書けます。
-
-```astro
-
+layout: two-cols-with-title
 ---
-import MyReactComponent from '../components/MyReactComponent.jsx';
-import MySvelteComponent from '../components/MySvelteComponent.svelte';
-import MyVueComponent from '../components/MyVueComponent.vue';
----
-<div>
-  <MySvelteComponent />
-  <MyReactComponent />
-  <MyVueComponent />
+# 今すぐ始めるAstro入門
+
+::left::
+
+<img src="./assets/astro.png" alt="Astro" class="p-2" />
+
+::right::
+
+<div class="flex flex-col gap-10">
+
+<div v-click>
+
+## 全12回！
 </div>
-```
 
----
+<div v-click>
 
-## 今から始める、Astro入門
+## 過去1年でお気に入り数No.1
+</div>
 
-このような特徴から、Astroの使い方を、解説しています。全12回です。
+<div v-click>
 
-- 第1回 Astroの特徴
-- 第2回 Astroコンポーネントの実装（2022年8月25日）
-- 第3回 UIコンポーネントの導入と実装（2022年9月8日）
-- 第4回 クライアントサイドでJavaScriptを動作させる（2022年9月15日）
-- 第5回 AstroファイルでのCSSの書き方（2022年10月13日）
-- 第6回 UIフレームワークでのスタイリング（2022年10月27日）
-- 第7回 Tailwind CSSを利用したスタイリング（2022年11月17日）
-- 第8回 Astroで定義した変数をCSSで使う（2022年12月1日）
-- 第9回 Astroで非同期処理を扱う（2022年12月15日）
-- 第10回 外部データからページを生成する（2023年1月5日）
-- 第11回 Markdownファイルの扱い方（2023年2月9日）
-- 第12回 Content Collectionsを使う（2023年2月24日）
+## 僕が書きました。
+</div>
 
+</div>
 ---
 layout: image-right
 image: ./assets/wordcloud-4.png
