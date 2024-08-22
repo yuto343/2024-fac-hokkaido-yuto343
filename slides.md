@@ -21,6 +21,31 @@ hideInToc: true
 <p class="text-right">2024.08.24 フロントエンドカンファレンス北海道</p>
 
 ---
+layout: two-cols-with-title
+---
+
+# 自己紹介
+
+::left::
+
+<video  class="rounded-5 video" src="./assets/snowboard.mp4" autoplay loop muted />
+🗻ルスツリゾート
+
+::right::
+
+名前：中野 祐人
+
+職業：Jamstackエンジニア @PixelGrid
+
+趣味：北海道で🏂、北海道で⛳️
+
+##### 理想の都道府県
+北海道（暑くない、 Gいない、梅雨ない、広い、遊び場がいっぱい）
+
+##### 理想の都市
+札幌（京都を超えた碁盤の目、ヨドバシカメラでかくなるらしい、美味しいものいっぱい）
+
+---
 hideInToc: true
 ---
 # 目次
