@@ -1,15 +1,19 @@
 <template>
-  <div class="slidev-layout section w-full h-full grid">
+  <div class="slidev-layout container">
     <div class="my-auto text-center inline-block relative">
-      <span class="text-5"><slot name="subtitle" /></span>
+      <div class="text-5 subtitle"><slot name="subtitle" /></div>
       <slot />
     </div>
   </div>
 </template>
 <style scoped>
-span {
-  position: absolute;
-  top: -120%;
-  left: 20%;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.subtitle {
+  text-align: left;
 }
 </style>
