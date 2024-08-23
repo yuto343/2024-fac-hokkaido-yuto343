@@ -136,25 +136,31 @@ layout: section
 
 # ライブラリなしで、よくあるUIの実装を詳細に解説！
 
-<div class="flex flex-justify-center flex-items-center gap-10 text-6 pt-10">
-  <div class="text-center flex flex-col gap-2" v-click>
-    <SlidevVideo autoplay controls muted loop>
-      <source src="./assets/drawer.mp4" type="video/mp4">
-    </SlidevVideo>
-    ドロワーUI
-  </div>
-  <div class="text-center flex flex-col gap-2" v-click>
-    <SlidevVideo autoplay controls muted loop>
-      <source src="./assets/tab.mp4" type="video/mp4">
-    </SlidevVideo>
-    タブUI
-  </div>
-  <div class="text-center flex flex-col gap-2" v-click>
-    <SlidevVideo autoplay controls muted loop>
-      <source src="./assets/carousel.mp4" type="video/mp4">
-    </SlidevVideo>
-    カルーセルUI
-  </div>
+<div class="flex flex-justify-center flex-items-center flex-col">
+  <SlidevVideo autoplay muted loop class="w-lg">
+    <source src="./assets/drawer.mp4" type="video/mp4">
+  </SlidevVideo>
+  ドロワーUI
+</div>
+
+---
+
+# タブUI
+
+<div class="flex flex-justify-center flex-items-center flex-col">
+  <SlidevVideo autoplay muted loop class="w-lg">
+    <source src="./assets/tab.mp4" type="video/mp4">
+  </SlidevVideo>
+</div>
+
+---
+
+# カルーセルUI
+
+<div class="flex flex-justify-center flex-items-center flex-col">
+  <SlidevVideo autoplay muted loop class="w-lg">
+    <source src="./assets/carousel.mp4" type="video/mp4">
+  </SlidevVideo>
 </div>
 
 ---
