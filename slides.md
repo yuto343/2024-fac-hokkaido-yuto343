@@ -70,8 +70,8 @@ CodeGridはフロントエンドに携わる人に向けて書かれたWebマガ
 
 - 記事はすべて社員が書いてます！(たまに寄稿してもらうことも)
 - 創刊してから12年！
-- 月に4回3記事で月間合計12記事が配信。
-- 月額880円（税込み）ですべての記事が読み放題！
+- 月に4回、1回3記事の、月間合計12記事が発行。
+- 月額880円（税込）ですべての記事が読み放題！
 - 12年で記事総数は1781本以上！
 - 最初の30日間は無料！
 
@@ -94,6 +94,11 @@ image: ./assets/wordcloud-1.png
 なので、どのような記事が多いのかを視覚的に表現しています。
 この画像を細かく見ていきます。
 -->
+---
+layout: section
+---
+
+# 実践記事が多い
 
 ---
 layout: image-left
@@ -144,7 +149,7 @@ layout: section-with-subtitle
   gap: 10px;
 }
 img {
-  width:300px;
+  width:200px;
   background-size: contain;
   height:100%;
 }
@@ -158,13 +163,12 @@ h2 {
 ---
 
 
-# ライブラリなしで、よくあるUIの実装を詳細に解説！
+# ドロワーナビ
 
 <div class="flex flex-justify-center flex-items-center flex-col">
   <SlidevVideo autoplay muted loop class="w-lg">
     <source src="./assets/drawer.mp4" type="video/mp4">
   </SlidevVideo>
-  ドロワーUI
 </div>
 
 ---
@@ -175,6 +179,7 @@ h2 {
   <SlidevVideo autoplay muted loop class="w-lg">
     <source src="./assets/tab.mp4" type="video/mp4">
   </SlidevVideo>
+  タブUI
 </div>
 
 ---
@@ -185,6 +190,7 @@ h2 {
   <SlidevVideo autoplay muted loop class="w-lg">
     <source src="./assets/carousel.mp4" type="video/mp4">
   </SlidevVideo>
+  カルーセルUI
 </div>
 
 ---
@@ -199,12 +205,17 @@ h2 {
 </div>
 
 ---
+layout: section
+---
+
+# ライブラリ・<br />Webフレームワークの記事も豊富
+---
 layout: image-right
 image: ./assets/wordcloud-3.png
 backgroundSize: contain
 ---
 
-## ライブラリや、Webフレームワークの記事も豊富
+## ライブラリ・Webフレームワークの記事も豊富
 
 使い方を説明した入門記事から、ひとつの機能にフォーカスして深掘りした記事まで、幅広い内容が揃っています。
 
@@ -355,6 +366,12 @@ import Counter from "../components/counter.svelte";
 </div>
 
 ---
+layout: section
+---
+
+# 実は、技術以外の記事も豊富
+
+---
 layout: image-right
 image: ./assets/wordcloud-4.png
 backgroundSize: contain
@@ -500,8 +517,11 @@ layout: two-cols-with-title
 ### パーソナルトレーニング
 <div v-click>
 
+- 運動不足で起こること
 - なぜ、フィットネスジムへの補助ではないのか？
+- どれぐらいやっているの？
 - 実験的に実施した際のスタッフの反応は？
+
 </div>
 </div>
 
@@ -513,7 +533,11 @@ layout: two-cols-with-title
 ### 名刺のデジタル化
 <div v-click>
 
-- 既存のサービスを使わなかった理由は？
+- なんで紙の名刺やめたの？
+- デジタル名刺サービスを使わなかった理由は？
+- どうやってデジタル名刺作ったの？
+- 名刺サイトで使った技術は？
+
 </div>
 
 </div>

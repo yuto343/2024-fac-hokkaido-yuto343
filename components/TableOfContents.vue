@@ -18,7 +18,7 @@
           </ul>
         </li>
         <li>
-          <p class="title2">③ ライブラリやwebフレームワークの記事も豊富</p>
+          <p class="title2">③ ライブラリ・webフレームワークの記事も豊富</p>
           <ul class="list3">
             <li class="item3">
               <span class="note2">記事紹介</span>
