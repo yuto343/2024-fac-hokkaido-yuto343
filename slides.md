@@ -68,10 +68,10 @@ CodeGridはフロントエンドに携わる人に向けて書かれたWebマガ
 
 <div class="text-4"> 
 
-- 記事は全て社員が書いてます！(たまに寄稿してもらうことも)
+- 記事はすべて社員が書いてます！(たまに寄稿してもらうことも)
 - 創刊してから12年！
-- 週に1回、3記事が配信！
-- 1ヶ月800円(税抜)！
+- 月に4回3記事で月間合計12記事が配信。
+- 月額880円（税込み）ですべての記事が読み放題！
 - 12年で記事総数は1781本以上！
 - 最初の30日間は無料！
 
@@ -104,7 +104,7 @@ backgroundSize: contain
 ## 実践記事が多い
 CodeGridは、エンジニアが日々の業務の中で得た知見を元に書かれていることが多く、「活きた」情報が得られます。
 
-<span>📚 例えば... </span>
+<span>📚 たとえば... </span>
 - ライブラリなしで実装する定番UI
 - 初心者のためのコードレビューファーストステップ
 - 読みやすいコードを書くためのヒント
@@ -456,6 +456,8 @@ layout: two-cols-with-title
 
 # 名刺カードサイト
 
+僕が持っているので、興味のある方はぜひ読み取ってみてください！
+
 ::left::
 
 <img src="/assets/bc-site.png" alt="名刺カードサイト、プロフィールページ" class="rounded-5 w-lg" />
@@ -508,14 +510,23 @@ layout: two-cols-with-title
 <div class="container">
   <img src="./assets/pix-works.png" alt="ピクセルグリッドの仕事術記事一覧の後半"  />
   <img src="./assets/pix-works2.png" alt="ピクセルグリッドの仕事術記事一覧の前半" />
+
+<div class="flex flex-col gap-3">
 <div v-click>
 
 ## 全34回！
-
+</div>
+<div v-click>
 
 ## CodeGrid最長！
 </div>
 
+<div v-click>
+
+## 現在も更新中！
+</div>
+
+</div>
 </div>
 
 <style>
