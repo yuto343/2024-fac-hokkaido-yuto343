@@ -15,6 +15,10 @@
     background: linear-gradient(to right, #ff5722, #d90d57);
     color: transparent;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 100% 100%;
+    background-position: 0 0;
   }
 
   h2 {
@@ -22,7 +26,11 @@
     font-weight: bold;
     background: linear-gradient(to right, #ff5722, #d90d57);
     color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100% 100%;
+    background-position: 0 0;
   }
 
   h3 {
