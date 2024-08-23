@@ -5,7 +5,7 @@
       <span class="note1">CodeGridの基本情報の紹介</span>
     </li>
     <li class="item1">
-      <p class="title1">2. どんな記事の内容が読めるの？</p>
+      <p class="title1">2. どんな内容の記事が読めるの？</p>
       <span class="note1">ワードクラウドを元に、どんな記事があるか紹介</span>
       <ol class="list2">
         <li>
