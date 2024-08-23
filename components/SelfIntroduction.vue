@@ -12,13 +12,13 @@
       <span class="content"> 北海道で🏂、北海道で🏌️‍♀️ </span>
     </li>
     <li class="item-l first-lg-item">
-      <div class="label">理想の都道府県</div>
+      <div class="label-lg">理想の都道府県</div>
       <div class="content">
         北海道 （暑くない、 Gいない、梅雨ない、広い、遊び場がいっぱい）
       </div>
     </li>
     <li class="item-l">
-      <div class="label">理想の都市</div>
+      <div class="label-lg">理想の都市</div>
       <div class="content">
         札幌
         <ul>
@@ -49,12 +49,23 @@
   flex-direction: column;
   gap: 0.7rem;
   list-style: none;
+  align-items: flex-start;
 }
 .label {
   display: grid;
   place-items: center;
   line-height: 1;
-  padding: 0.2rem 0.5rem;
+  padding: 0.1rem 0.5rem;
+  background: linear-gradient(to right, #ff5722, #d90d57);
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.label-lg {
+  display: grid;
+  place-items: center;
+  line-height: 1;
+  padding: 0.5rem 1rem;
   background: linear-gradient(to right, #ff5722, #d90d57);
   border-radius: 1rem;
   font-size: 0.9rem;
