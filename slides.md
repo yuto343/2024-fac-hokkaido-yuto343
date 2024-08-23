@@ -27,24 +27,14 @@ layout: two-cols-with-title
 # 自己紹介
 
 ::left::
-
-<video  class="rounded-5 video" src="./assets/snowboard.mp4" autoplay loop muted />
+<SlidevVideo class="rounded-5 video"  autoplay loop muted>
+  <source   src="./assets/snowboard.mp4" />
+</SlidevVideo>
 🗻ルスツリゾート
 
 ::right::
 
-名前：中野 祐人
-
-職業：Jamstackエンジニア @PixelGrid
-
-趣味：北海道で🏂、北海道で⛳️
-
-##### 理想の都道府県
-北海道（暑くない、 Gいない、梅雨ない、広い、遊び場がいっぱい）
-
-##### 理想の都市
-札幌（京都を超えた碁盤の目、ヨドバシカメラでかくなるらしい、美味しいものいっぱい）
-
+<SelfIntroduction />
 ---
 
 # 目次
