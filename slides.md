@@ -49,7 +49,7 @@ layout: two-cols-with-title
 
 # 目次
 
-<Toc columns=2 />
+<TableOfContents />
 
 <!--
 - はじめにCodeGridとは？どんな記事が読めるのか?という部分を紹介しながら、
