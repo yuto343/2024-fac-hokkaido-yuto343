@@ -12,7 +12,6 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
-hideInToc: true
 ---
 
 # CodeGrid記事かいつまみ紹介
@@ -46,8 +45,7 @@ layout: two-cols-with-title
 札幌（京都を超えた碁盤の目、ヨドバシカメラでかくなるらしい、美味しいものいっぱい）
 
 ---
-hideInToc: true
----
+
 # 目次
 
 <Toc columns=2 />
@@ -130,23 +128,87 @@ layout: section-with-subtitle
 📖 記事かいつまみ紹介
 
 ---
-hideInToc: true
+layout: section
 ---
 
-# ライブラリを使わずに実装する定番UI
-このシリーズでは全31回で、以下のUIをライブラリなしで実装する方法を紹介しています。
+<span>🤔</span>
 
-- ドロワーナビ
-- ローディング画面
-- スティッキーナビ
-- タブUI
-- カルーセルUI
-- セレクトボックス
-- ツリービュー
+## ライブラリ、導入するほどじゃない気もするけど...
 
-<!-- カルーセルなどは、ライブラリを導入して作るUIの定番ですが、この記事を読めばライブラリを使わずに実装できるようになります。
-それぞれアクセシビリティにも配慮された作りになっているので、その点でも非常に参考になるシリーズです。
- -->
+<style>
+  span {
+    font-size: 100px;
+    margin-right: 10px;
+  }
+</style>
+---
+
+# ライブラリなしで、よくあるUIの実装を詳細に解説！
+
+<div class="flex flex-justify-center flex-items-center gap-10 text-6 pt-10">
+  <div class="text-center flex flex-col gap-2" v-click>
+    <SlidevVideo autoplay controls muted loop>
+      <source src="./assets/drawer.mp4" type="video/mp4">
+    </SlidevVideo>
+    ドロワーUI
+  </div>
+  <div class="text-center flex flex-col gap-2" v-click>
+    <SlidevVideo autoplay controls muted loop>
+      <source src="./assets/tab.mp4" type="video/mp4">
+    </SlidevVideo>
+    タブUI
+  </div>
+  <div class="text-center flex flex-col gap-2" v-click>
+    <SlidevVideo autoplay controls muted loop>
+      <source src="./assets/carousel.mp4" type="video/mp4">
+    </SlidevVideo>
+    カルーセルUI
+  </div>
+</div>
+
+---
+
+# ライブラリなしで実装する定番UI
+
+<div class="container">
+  <img src="./assets/common-ui-1.png" alt="ライブラリなしで実装する定番UI記事一覧の前半"  />
+  <img src="./assets/common-ui-2.png" alt="ライブラリなしで実装する定番UI記事一覧の後半" />
+
+  <div class='pt-5'>
+    <div class="flex flex-col gap-10">
+
+<div v-click>
+
+## アクセシビリティにも配慮！
+
+</div>
+<div v-click>
+
+## 全31回！
+</div>
+<div v-click>
+
+## 現在も更新中！
+</div>
+  </div>
+</div>
+</div>
+
+<style>
+.container {
+  display: flex;
+  gap: 10px;
+}
+img {
+  width:300px;
+  background-size: contain;
+  height:100%;
+}
+h2 {
+  padding-left:10px
+}
+
+</style>
 
 ---
 layout: image-right
@@ -352,7 +414,6 @@ backgroundSize: contain
 
 --- 
 layout: section-with-subtitle
-hideInToc: true
 ---
 
 ## ピクセルグリッドの仕事術
