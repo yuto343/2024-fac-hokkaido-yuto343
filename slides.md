@@ -28,7 +28,7 @@ layout: two-cols-with-title
 
 ::left::
 <SlidevVideo class="rounded-5 video"  autoplay loop muted>
-  <source   src="./assets/snowboard.mp4" />
+  <source src="./assets/snowboard.mp4" />
 </SlidevVideo>
 🗻ルスツリゾート
 
@@ -135,9 +135,9 @@ layout: section-with-subtitle
 
 ## 全31回
 
-## 定番UIをライブラリなしで実装する方法を解説！
+## 定番UIをライブラリなしで<br />実装する方法を解説！
 
-## アクセシビリティにも配慮した実装を紹介！
+## アクセシビリティにも配慮した<br />実装を紹介！
 
 ## 現在も更新中！
   </div>
@@ -149,7 +149,7 @@ layout: section-with-subtitle
   gap: 10px;
 }
 img {
-  width:200px;
+  width:220px;
   background-size: contain;
   height:100%;
 }
@@ -286,53 +286,28 @@ layout: section
 </h1>
 
 ---
-layout: two-cols-with-title
----
 
 # アイランドアーキテクチャ
+JavaScriptを読み込むタイミングをコンポーネント単位で簡単に制御できます。
 
-JavaScriptを読み込む、読み込まないをコンポーネント単位で制御できます。
+<SlidevVideo autoplay controls muted loop>
+  <source src="./assets/client-visible-demo.mp4" type="video/mp4">
+</SlidevVideo>
 
-::left::
+---
 
-<div>
-<div class="flex flex-items-center gap-1">
-<LogoSvelte size="18" />Counter.svelte
-</div>
-```svelte {all|3|4-6|8|15-17|0}
-<script>
-  import { onMount } from "svelte";
-  let count = 0;
-  function countUp() {
-    count += 1;
-  }
-  onMount(() => {
-    const interval = setInterval(countUp, 1000);
-    return () => {
-      clearInterval(interval);
-    };
-  });
-</script>
-
-<div>
-  Count：{count}
-</div>
-```
-
-</div>
-
-::right::
+# どれだけ簡単?
 
 <div>
 <div class="flex flex-items-center gap-1">
 <LogoAstro size="18" />pages/index.astro
 </div>
-```astro {0|2,12|11,13}
+```astro {all|12}
 ---
 import Counter from "../components/counter.svelte";
 ---
 
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8" />
 	</head>
@@ -349,19 +324,14 @@ import Counter from "../components/counter.svelte";
 </div>
 ---
 
-<SlidevVideo autoplay controls muted loop>
-  <source src="./assets/client-visible-demo.mp4" type="video/mp4">
-</SlidevVideo>
-
----
-
 # 中野的おすすめポイント
 
 <div class="text-10">
 
-- 最近のフレームワーク触ってみたい！<br />っていう人におすすめ。
-- 過去のお気に入り数No.1記事です。
-- 僕が書きました。
+- Web制作はじめたての人におすすめ！
+- 第1回の他との比較でけでも読む価値あり！
+- 過去のお気に入り数過去1年でNo.1記事です！
+- 僕が書きました！
 
 </div>
 
