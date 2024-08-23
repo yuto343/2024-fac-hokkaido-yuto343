@@ -349,7 +349,7 @@ import Counter from "../components/counter.svelte";
 </div>
 ---
 
-<SlidevVideo autoplay controls muted>
+<SlidevVideo autoplay controls muted loop>
   <source src="./assets/client-visible-demo.mp4" type="video/mp4">
 </SlidevVideo>
 
@@ -543,9 +543,8 @@ layout: two-cols-with-title
 
 <div class="text-10">
 
-- 社長の思考回路が知れる
 - 会社運営に携わっている人にもおすすめ
-- 気軽に読めるのもいい
+- 社長の思考回路が知れる
 
 </div>
 
