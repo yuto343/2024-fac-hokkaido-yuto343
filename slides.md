@@ -14,9 +14,10 @@ transition: slide-left
 mdc: true
 ---
 
-# CodeGrid記事かいつまみ紹介
+# CodeGrid記事
+# かいつまみ紹介
 
-<p class="text-right">Yuto Nakano</p>
+<p class="text-right pt-15">株式会社ピクセルグリッド　中野祐人</p>
 <p class="text-right">2024.08.24 フロントエンドカンファレンス北海道</p>
 
 ---
@@ -231,12 +232,6 @@ backgroundSize: contain
 - Vue 3から始める、Vue.js
 
 </div>
-
-<style>
-h1 {
-  /* text-wrap:nowrap */
-}
-</style>
 
 <!-- 流行りのライブラリやWebフレームワークの記事も豊富です -->
 ---
