@@ -119,20 +119,44 @@ layout: section-with-subtitle
 📖 記事かいつまみ紹介
 
 ---
-layout: section
----
 
-<span>🤔</span>
+# ライブラリなしで実装する定番UI
 
-## ライブラリ、導入するほどじゃない気もするけど...
+<div class="container">
+  <img src="./assets/common-ui-1.png" alt="ライブラリなしで実装する定番UI記事一覧の前半"  />
+  <img src="./assets/common-ui-2.png" alt="ライブラリなしで実装する定番UI記事一覧の後半" />
+
+  <div class="flex flex-col gap-5">
+
+## 全31回
+
+## 定番UIをライブラリなしで実装する方法を解説！
+
+## アクセシビリティにも配慮した実装を紹介！
+
+## 現在も更新中！
+  </div>
+</div>
 
 <style>
-  span {
-    font-size: 100px;
-    margin-right: 10px;
-  }
+.container {
+  display: flex;
+  gap: 10px;
+}
+img {
+  width:300px;
+  background-size: contain;
+  height:100%;
+}
+h2 {
+  padding-left:10px
+}
+
 </style>
+
+
 ---
+
 
 # ライブラリなしで、よくあるUIの実装を詳細に解説！
 
@@ -165,47 +189,14 @@ layout: section
 
 ---
 
-# ライブラリなしで実装する定番UI
+# 中野的おすすめポイント
 
-<div class="container">
-  <img src="./assets/common-ui-1.png" alt="ライブラリなしで実装する定番UI記事一覧の前半"  />
-  <img src="./assets/common-ui-2.png" alt="ライブラリなしで実装する定番UI記事一覧の後半" />
+<div class="text-10">
 
-  <div class='pt-5'>
-    <div class="flex flex-col gap-10">
-
-<div v-click>
-
-## アクセシビリティにも配慮！
+- ライブラリできるだけ減らしたい。
+- 仕組みを理解できると、<br />フレームワークを使った実装に応用できる。
 
 </div>
-<div v-click>
-
-## 全31回！
-</div>
-<div v-click>
-
-## 現在も更新中！
-</div>
-  </div>
-</div>
-</div>
-
-<style>
-.container {
-  display: flex;
-  gap: 10px;
-}
-img {
-  width:300px;
-  background-size: contain;
-  height:100%;
-}
-h2 {
-  padding-left:10px
-}
-
-</style>
 
 ---
 layout: image-right
@@ -219,7 +210,7 @@ backgroundSize: contain
 
 <div class="pt-5">
 
-<span>📚 例えば... </span>
+<span>📚 たとえば... </span>
 - 今すぐ始めるAstro入門
 - これから始める、Next.js
 - Preactで始める軽量コンポーネント指向開発
@@ -242,7 +233,8 @@ layout: section-with-subtitle
 ---
 layout: two-cols-with-title
 ---
-# web制作ここからでOK！な入門記事
+
+# Web制作ここからでOK！な入門記事
 
 ::left::
 
@@ -342,45 +334,26 @@ import Counter from "../components/counter.svelte";
 </html>
 
 ```
+
 </div>
-
 ---
-
 
 <SlidevVideo autoplay controls muted>
   <source src="./assets/client-visible-demo.mp4" type="video/mp4">
 </SlidevVideo>
 
-
 ---
-layout: two-cols-with-title
----
-# 今すぐ始めるAstro入門
 
-::left::
+# 中野的おすすめポイント
 
-<img src="./assets/astro.png" alt="Astro" class="p-2" />
+<div class="text-10">
 
-::right::
-
-<div class="flex flex-col gap-10">
-
-<div v-click>
-
-## 全12回！
-</div>
-
-<div v-click>
-
-## 過去1年でお気に入り数No.1
-</div>
-
-<div v-click>
-
-## 僕が書きました。
-</div>
+- 最近のフレームワーク触ってみたい！<br />っていう人におすすめ。
+- 過去のお気に入り数No.1記事です。
+- 僕が書きました。
 
 </div>
+
 ---
 layout: image-right
 image: ./assets/wordcloud-4.png
@@ -393,7 +366,7 @@ backgroundSize: contain
 
 <div class="pt-5">
 
-<span>📚 例えば... </span>
+<span>📚 たとえば... </span>
 - ピクセルグリッドの仕事術
 - ピクセルグリッドが訪ねる、開発の現場
 - 気になる余白と気になりにくい余白
@@ -411,6 +384,48 @@ layout: section-with-subtitle
 
 ::subtitle::
 📖 記事かいつまみ紹介
+
+---
+
+# ピクセルグリッドの仕事術
+
+<div class="container">
+  <img src="./assets/pix-works.png" alt="ピクセルグリッドの仕事術記事一覧の後半"  />
+  <img src="./assets/pix-works2.png" alt="ピクセルグリッドの仕事術記事一覧の前半" />
+
+<div class="flex flex-col gap-3">
+<div v-click>
+
+## 全34回！
+</div>
+<div v-click>
+
+## CodeGrid最長！
+</div>
+
+<div v-click>
+
+## 現在も更新中！
+</div>
+
+</div>
+</div>
+
+<style>
+.container {
+  display: flex;
+  gap: 10px;
+}
+img {
+  width:300px;
+  background-size: contain;
+  height:100%;
+}
+h2 {
+  padding-left:10px
+}
+
+</style>
 
 ---
 
@@ -470,13 +485,13 @@ layout: two-cols-with-title
 layout: section
 ---
 
-## これらが、どのような考えから生まれ、どのように運用されているのか、その裏側が紹介されています。
+## これらが、どのような考えから生まれ、<br />どのように運用されているのか、<br />その裏側が紹介されています。
 
 ---
 layout: two-cols-with-title
 ---
 
-## 例えば...
+# たとえば...
 
 ::left::
 
@@ -505,45 +520,15 @@ layout: two-cols-with-title
 
 ---
 
-# 気軽に読めて面白い！会社運営のヒントにも！
+# 中野的おすすめポイント
 
-<div class="container">
-  <img src="./assets/pix-works.png" alt="ピクセルグリッドの仕事術記事一覧の後半"  />
-  <img src="./assets/pix-works2.png" alt="ピクセルグリッドの仕事術記事一覧の前半" />
+<div class="text-10">
 
-<div class="flex flex-col gap-3">
-<div v-click>
-
-## 全34回！
-</div>
-<div v-click>
-
-## CodeGrid最長！
-</div>
-
-<div v-click>
-
-## 現在も更新中！
-</div>
+- 社長の思考回路が知れて面白い
+- 会社運営に携わっている人にもおすすめ
+- 気軽に読めるのもいい
 
 </div>
-</div>
-
-<style>
-.container {
-  display: flex;
-  gap: 10px;
-}
-img {
-  width:300px;
-  background-size: contain;
-  height:100%;
-}
-h2 {
-  padding-left:10px
-}
-
-</style>
 
 ---
 layout: section
