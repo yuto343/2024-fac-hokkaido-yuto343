@@ -405,6 +405,7 @@ layout: section-with-subtitle
 ---
 
 # ピクセルグリッドの仕事術
+ピクセルグリッドの制度がどのような考えから生まれ運用されているのか、その裏側が紹介されています。
 
 <div class="container">
   <img src="./assets/pix-works.png" alt="ピクセルグリッドの仕事術記事一覧の後半"  />
@@ -499,16 +500,10 @@ layout: two-cols-with-title
 <img src="/assets/bc-site2.png" alt="名刺カードサイト、あったことのあるスタッフページ" class="rounded-5 w-lg" />
 
 ---
-layout: section
----
-
-## これらが、どのような考えから生まれ、<br />どのように運用されているのか、<br />その裏側が紹介されています。
-
----
 layout: two-cols-with-title
 ---
 
-# たとえば...
+# 仕組みの裏側、たとえば...
 
 ::left::
 
@@ -548,7 +543,7 @@ layout: two-cols-with-title
 
 <div class="text-10">
 
-- 社長の思考回路が知れて面白い
+- 社長の思考回路が知れる
 - 会社運営に携わっている人にもおすすめ
 - 気軽に読めるのもいい
 
