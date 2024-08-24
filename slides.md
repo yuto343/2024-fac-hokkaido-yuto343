@@ -58,7 +58,7 @@ title: CodeGridとは?
 
 ---
 layout: image-left
-image: ./assets/codegrid.png
+image: /codegrid.png
 backgroundSize: contain
 hideInToc: true
 ---
@@ -86,7 +86,7 @@ layout: section
 
 ---
 layout: image
-image: ./assets/wordcloud-1.png
+image: /wordcloud-1.png
 ---
 
 <!-- 
@@ -102,7 +102,7 @@ layout: section
 
 ---
 layout: image-left
-image: ./assets/wordcloud-2.png
+image: /wordcloud-2.png
 backgroundSize: contain
 ---
 
@@ -199,7 +199,7 @@ h2 {
 
 <div class="text-10">
 
-- ライブラリできるだけ減らしたい。
+- ライブラリを減らせる。
 - 仕組みを理解できると、<br />フレームワークを使った実装に応用できる。
 
 </div>
@@ -211,7 +211,7 @@ layout: section
 # ライブラリ・<br />Webフレームワークの記事も豊富
 ---
 layout: image-right
-image: ./assets/wordcloud-3.png
+image: /wordcloud-3.png
 backgroundSize: contain
 ---
 
@@ -328,10 +328,9 @@ import Counter from "../components/counter.svelte";
 
 <div class="text-10">
 
-- Web制作はじめたての人におすすめ！
-- 第1回の他との比較でけでも読む価値あり！
-- 過去のお気に入り数過去1年でNo.1記事です！
 - 僕が書きました！
+- 第1回でどういうものなのか把握できる！
+- Web制作に携わっている、<br />興味ある人におすすめ！
 
 </div>
 
@@ -343,7 +342,7 @@ layout: section
 
 ---
 layout: image-right
-image: ./assets/wordcloud-4.png
+image: /wordcloud-4.png
 backgroundSize: contain
 ---
 
