@@ -1,11 +1,7 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+## CodeGrit記事かいつまみ紹介
 
-To start the slide show:
+フロントエンドカンファレンス北海道2024での発表資料です。
 
-- `npm install`
-- `npm run dev`
-- visit <http://localhost:3030>
+Cloudflare Pagesで↓にデプロイしてます。
 
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
+- https://2024-fac-hokkaido-yuto343.pages.dev/
