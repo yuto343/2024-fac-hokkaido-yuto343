@@ -7,12 +7,13 @@ layout: section
 
 <!-- ライブラリを導入するデメリットは他にもたくさんありますが、僕が特に身をもって復旧したこと。を3つ挙げました。 それぞれ見ていくと-->
 
-
 ---
+
 layout: image-right
 image: ./assets/polyfill-io.png
 backgroundSize: contain
 hideInToc: true
+
 ---
 
 ## 依存性の増加
@@ -26,20 +27,21 @@ hideInToc: true
 </div>
 
 <!-- 右の図は、Polyfill.ioが中国企業に買収され、マルウェアが注入されたとニューズになった時の画像です-->
-<!-- もし、使用しているライブラリにこのようなことがあれば、 対応に追われてんてこ舞いになることが目に見えています。-->
----
+
+## <!-- もし、使用しているライブラリにこのようなことがあれば、 対応に追われてんてこ舞いになることが目に見えています。-->
+
 layout: two-cols-header
 hideInToc: true
+
 ---
 
 ## 学習コストの増加
 
-
 ::left::
 
 ```js
-import { observable, action, makeObservable } from 'mobx';
-import { observer } from 'mobx-react';
+import { observable, action, makeObservable } from "mobx";
+import { observer } from "mobx-react";
 
 class CounterStore {
   count = 0;
@@ -61,6 +63,7 @@ class CounterStore {
   };
 }
 ```
+
 ::right::
 
 <div class="pl-6">
@@ -90,34 +93,36 @@ hideInToc: true
 
 </div>
 
-
 ---
+
 layout: fact
 hideInToc: true
+
 ---
 
 ## ライブラリはできるだけ減らせたほうが吉
 
-
-
 ---
-layout: section
----
+
+## layout: section
 
 <div class="flex flex-justify-center flex-col gap-10">
 
 <div v-click>
 
 ## アイランドアーキテクチャ
+
   </div>
   
   <div v-click>
 
 ## コンテンツ主体のwebサイトに向いた機能性
+
   </div>
-  <div v-click>  
+  <div v-click>
 
 ## 他のwebフレームワークの言語が使える
+
   </div>
 
 </div>
@@ -127,10 +132,11 @@ layout: section
 # コンテンツ主体のwebサイトに向いた機能性
 
 ---
-layout: two-cols-header
----
+
+## layout: two-cols-header
 
 # Content Collections
+
 ローカルコンテンツのスキーマを定義し、厳密に管理できます。
 
 ::left::
@@ -138,8 +144,9 @@ layout: two-cols-header
 <div class="pr-5" v-click>
 
 collections/config.ts
+
 ```ts
-import { z, defineCollection } from "astro:content"
+import { z, defineCollection } from "astro:content";
 
 const writing = defineCollection({
   schema: z.object({
@@ -152,9 +159,8 @@ const writing = defineCollection({
 });
 
 export const collections = {
-  writing
+  writing,
 };
-
 ```
 
 </div>
@@ -164,6 +170,7 @@ export const collections = {
 <div v-click>
 
 content/2024-supabase-1.md
+
 ```md
 ---
 title: Supabaseで作る記録アプリ | 第1回 プロジェクトの作成と簡単なテーブルの作成
@@ -173,15 +180,15 @@ date: 2024-08-08
 link: https://www.codegrid.net/articles/2024-supabase-1/
 ---
 ```
+
 </div>
 
-
-
 ---
-layout: section
----
+
+## layout: section
 
 # Zero Lock-in
+
 AstroはメジャーなUIフレームワークをサポートしています。
 
 ---
